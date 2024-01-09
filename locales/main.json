@@ -1,0 +1,66 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "Ticket",
+      "description": "Witaj tutaj stworzysz ticket jaki określa twoją sytuacje dla której tu przybyłeś, jeżeli masz jaki kolwiek problem, uwage lub zauważalny błąd to kliknij dany przycisk `Otwórz Ticket` i skontaktuj się z nami.",
+      "footer": {
+        "text": "OyoomHelp"
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket CATEGORYNAME",
+      "description": "A staff will reply you as soon as possible!",
+      "footer": {
+        "text": "OyoomHelp"
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket closed",
+      "description": "The ticket has been closed by CLOSERNAME with the following reason: `REASON`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket closed",
+      "description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`\n\nHere is the transcript of the ticket: TRANSCRIPTURL",
+      "footer": {
+        "text": "OyoomHelp"
+      }
+    }
+  },
+  "modals": {
+    "reasonTicketOpen": {
+      "title": "Otwórz Ticket",
+      "label": "Powód do twojego ticketu",
+      "placeholder": "Proszę podać powód dla którego stworzyłeś/aś bilet!"
+    },
+    "reasonTicketClose": {
+      "title": "Zamknij Ticket",
+      "label": "Powód do zamknięcia biletu.",
+      "placeholder": "Proszę podać powód dla którego zamknełeś/aś bilet!"
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Zamknij Ticket",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Odbierz",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "Ticket otwarty! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "Ticket moze być odebrany tylko przez Administracje!",
+  "ticketAlreadyClaimed": "Ticket został już odebrany!",
+  "ticketClaimedMessage": "> Ticket odebrany przez USER",
+  "ticketOnlyClosableByStaff": "Tylko administracja może zamknąć ticket!",
+  "ticketAlreadyClosed": "Ticket został juz zamknięty!",
+  "ticketLimitReached": "Możesz mieć tylko TICKETLIMIT bilety otworzone w tym samym czasie!",
+
+  "other": {
+    "openTicketButtonMSG": "Otwórz Ticket",
+    "deleteTicketButtonMSG": "Usuń Ticket",
+    "selectTicketTypePlaceholder": "Wybierz typ biletu",
+    "claimedBy": "**Odebrano przez**: USER",
+    "noReasonGiven": "Nie podano powodu"
+  }
+}
